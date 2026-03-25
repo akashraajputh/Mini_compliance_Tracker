@@ -4,8 +4,9 @@ Simple web app to track compliance tasks for clients.
 
 ## Features
 - Client list
-- Tasks per client with add/update/filter
+- Tasks per client with add/update/filter/search/sort
 - Overdue task highlighting
+- Summary stats (total, pending, overdue)
 - Persistent storage (SQLite)
 
 ## Local Setup
@@ -13,6 +14,11 @@ Simple web app to track compliance tasks for clients.
 2. Backend: `cd server && npm install && npm start` (port 3001)
 3. Frontend: `cd client && npm install && npm run dev` (port 3000)
 4. Or root: `npm install && npm run dev`
+
+## Docker Setup
+1. Ensure Docker and Docker Compose installed
+2. `docker-compose up --build`
+3. Access at http://localhost:3000
 
 ## Deployment
 - Frontend: [Vercel link TBD]

@@ -1,0 +1,124 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "company_name": "Ledgers Inc",
+      "country": "US",
+      "entity_type": "LLC"
+    },
+    {
+      "id": 2,
+      "company_name": "Acme Corp",
+      "country": "UK",
+      "entity_type": "Ltd"
+    },
+    {
+      "id": 3,
+      "company_name": "Global Tech",
+      "country": "CA",
+      "entity_type": "Corp"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "title": "Annual Tax Filing",
+      "description": "File IRS Form 1120",
+      "category": "tax",
+      "due_date": "2024-10-01",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "client_id": 1,
+      "title": "VAT Return",
+      "description": "Submit Q4 VAT",
+      "category": "tax",
+      "due_date": "2024-12-15",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "title": "Audit Prep",
+      "description": "Prepare for external audit",
+      "category": "audit",
+      "due_date": "2024-11-30",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": 4,
+      "client_id": 2,
+      "title": "Annual Tax Filing",
+      "description": "File IRS Form 1120",
+      "category": "tax",
+      "due_date": "2024-10-01",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": 5,
+      "client_id": 2,
+      "title": "VAT Return",
+      "description": "Submit Q4 VAT",
+      "category": "tax",
+      "due_date": "2024-12-15",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": 6,
+      "client_id": 2,
+      "title": "Audit Prep",
+      "description": "Prepare for external audit",
+      "category": "audit",
+      "due_date": "2024-11-30",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": 7,
+      "client_id": 3,
+      "title": "Annual Tax Filing",
+      "description": "File IRS Form 1120",
+      "category": "tax",
+      "due_date": "2024-10-01",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": 8,
+      "client_id": 3,
+      "title": "VAT Return",
+      "description": "Submit Q4 VAT",
+      "category": "tax",
+      "due_date": "2024-12-15",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": 9,
+      "client_id": 3,
+      "title": "Audit Prep",
+      "description": "Prepare for external audit",
+      "category": "audit",
+      "due_date": "2024-11-30",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": 10,
+      "client_id": 1,
+      "title": "Pending tax",
+      "description": "Remaing task to pay",
+      "category": "tax",
+      "due_date": "2026-03-11T00:00:00.000Z",
+      "status": "pending",
+      "priority": "medium"
+    }
+  ]
+}
