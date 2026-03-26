@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'NEXT_PUBLIC_API_URL=https://mini-compliance-tracker-0opx.onrender.com/api';
 
 export const api = {
   getClients: () => fetch(`${API_BASE}/clients`).then(res => res.json()),
