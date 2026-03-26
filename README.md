@@ -24,6 +24,10 @@ Simple web app to track compliance tasks for clients.
 - Frontend: [Vercel link TBD]
 - Backend: [Render link TBD]
 
+For backend on Render, set environment variable: `CORS_ORIGIN=https://your-frontend.vercel.app`
+
+For frontend on Vercel, set: `NEXT_PUBLIC_API_URL=https://your-backend.onrender.com/api`
+
 ## API
 - GET /api/clients
 - GET /api/tasks/:clientId

@@ -7,7 +7,7 @@ const errorHandler = require('./middleware/errorHandler');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000' // Next.js dev
+  origin: process.env.CORS_ORIGIN || 'http://localhost:3000' // Allow deployed frontend URL in production
 }));
 app.use(express.json());
 
