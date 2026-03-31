@@ -34,6 +34,29 @@ For frontend on Vercel, set: `NEXT_PUBLIC_API_URL=https://your-backend.onrender.
 - POST /api/tasks
 - PATCH /api/tasks/:id/status
 
+## Tech Stack
+- Frontend: Next.js, React, Tailwind CSS
+- Backend: Node.js, Express
+- Database: SQLite (via better-sqlite3 / knex optional)
+- Authentication: None (internal use)
+- Containerization: Docker + Docker Compose
+- Testing: (not implemented yet)
+
+## System Architecture
+```mermaid
+flowchart TD
+    Browser -->|HTTP| NextJS_Frontend[Next.js Frontend]
+    NextJS_Frontend -->|REST API| Express_Backend[Express API]
+    Express_Backend -->|SQL| SQLite_DB[SQLite Database]
+    subgraph Client
+      NextJS_Frontend
+    end
+    subgraph Server
+      Express_Backend
+      SQLite_DB
+    end
+```
+
 Built with Next.js (frontend), Express + SQLite (backend).
 
 ## Tradeoffs
